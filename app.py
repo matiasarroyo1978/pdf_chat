@@ -64,7 +64,7 @@ def handle_userinput(user_question):
                 st.write(bot_template.replace(
                     "{{MSG}}", message.content), unsafe_allow_html=True)
     except Exception as e:
-        st.error(f"An error occurred: {str(e)}")
+        st.error(f"You must Upload the PDF file first")
 
 def main():
     load_dotenv()
