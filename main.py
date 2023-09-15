@@ -210,7 +210,7 @@ def main():
             st.caption("Please Authenticate OpenAI API Before Proceeding")
     with code_tab:
         display_code()
-
-
+        
+        
 if __name__ == '__main__':
     main()
