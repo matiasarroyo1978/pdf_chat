@@ -205,7 +205,7 @@ def main():
             if send_button and user_question:
                 handle_userinput(user_question, prompt)
         if not st.session_state.get("pdf_processed"): 
-            st.caption("Please Upload Atleast 1 PDF Before Proceeding")
+            st.caption("Please Upload At Least 1 PDF Before Proceeding")
         if not st.session_state.api_authenticated:
             st.caption("Please Authenticate OpenAI API Before Proceeding")
     with code_tab:
